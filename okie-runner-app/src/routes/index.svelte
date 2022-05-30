@@ -1,8 +1,12 @@
 <script>
 
-    import Header from './Global Components/header.svelte';
-    import Main from "./lib/main";
+    import '../../src/global.css';
+    import Header from '../Global Components/header.svelte';
+    import Main from '../lib/main.svelte';
 </script>
+<svelte:head>
+    <title>Okie Runner</title>
+</svelte:head>
 
 <header>
     <Header />
