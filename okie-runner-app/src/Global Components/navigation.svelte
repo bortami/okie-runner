@@ -1,8 +1,8 @@
 <script>
     let menu = [
-        { text: 'Home', url: '/' },
-        { text: 'Upcoming Events', url: '/events' },
+        { text: 'Upcoming Events', url: '/' },
         { text: 'Results & Media', url: '/results' },
+        { text: "Director's Corner", url: '/blog' }
     ];
 </script>
 
@@ -25,6 +25,7 @@
     }
     li a {
         font-size: 1.2rem;
+        word-break: normal;
     }
     @media (max-width: 640px){
         li{
